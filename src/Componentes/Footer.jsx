@@ -9,7 +9,7 @@ export default function Footer ( ) {
                                 <div class="row">
                                         <div class="columna columna-25 columna-mobile-100">
                                                 <img src="Logo1.jpg" className='logo-footer' alt="" />
-                                                <p>El sabor del encuentro. </p>
+                                                <p>Servicios Medicos </p>
                                         </div>
                                         <div class="columna columna-25 columna-mobile-100">
                                                 <h3>Navegación</h3>
