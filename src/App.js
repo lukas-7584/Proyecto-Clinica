@@ -3,14 +3,36 @@ import './App.css';
 import NavBar from './Componentes/NavBar';
 import Footer from './Componentes/Footer';
 import Inicio from './Componentes/Inicio';
+import CartProvider from './Context/CartProvider';
+import { BrowserRouter } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div >
+    < >
+
+      <CartProvider>
+        <BrowserRouter>
+        <div><NavBar /></div>
+          <Switch>
+            {/* RUTA AL INICIO */}
+            <Route exact path= "/">
+              <div>
+                <Inicio/>
+              </div>
+            </Route>
+          </Switch>
+        
+        
+        </BrowserRouter>
+
+
+      </CartProvider>
       {/* <Inicio /> */}
-      <NavBar />
+      
       <Footer />
-    </div>
+    </>
   );
 }
 
