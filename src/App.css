@@ -37,6 +37,11 @@
   margin-left:  -15px; 
   /* margin-right: -15px; */
 }
+
+nav div ul li {
+  font-size: 18px ;
+
+}
 /* ESTILOS PAR A  EL FOOTER -------------------------------------------------------*/ 
 footer.seccion{
   background-color:rgb(0, 135, 162);
@@ -65,6 +70,9 @@ footer a {
   
 }
 
+footer h3{
+  font-size: 20px;
+}
 footer .logo-footer{
   width: 75%;
   border-radius: 30%;
@@ -78,6 +86,7 @@ footer ul{
 
 footer ul li{
   margin-bottom: 5px;
+  font-size: 12px;
 }
 
 footer .redes{
@@ -88,6 +97,7 @@ footer .redes{
 
 footer .redes  a{
   margin: 0 7.5px;
+  font-size: 25px;
 }
 
 .columna{
@@ -100,8 +110,9 @@ footer .redes  a{
 }
 
 footer .RD{
-    margin-left: 10px;
+    margin-left: 35px;
 }
+
 /* FINAL DE LOS ESTILOS DEL  FOOTER -------------------------------------------------------*/ 
 
 /* ESTILOS  DEL INICIO--------------------------------------------------------------------------- */
@@ -111,8 +122,20 @@ body {
   max-width: 100%;
   height: 100%;
   margin-bottom: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+body h1{
+  text-align: center;
+  font-size: 24px;
+
+}
+body p{
+  font-size: 14px;
 }
 
+  section div{
+    margin-top: 2px;
+  }
 .container {
   display: flex;
   justify-content: center;
@@ -203,19 +226,19 @@ body {
   transition-delay: 0s, 0.1s, 0s;
 }
 .container .section:nth-child(1) {
-  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Kenai-desktop.jpg") center;
+  background: url("https://www.grupoorono.com.ar/storage/app/media/img-quienes_somos_inst_6.png") center no-repeat;
 }
 .container .section:nth-child(2) {
-  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Hawaii-desktop.jpg") center;
+  background: url("https://medicinaysaludpublica.blob.core.windows.net.optimalcdn.com/images/2021/02/24/falta-de-indumentaria-para-medicos.jpg") center no-repeat;
 }
 .container .section:nth-child(3) {
-  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/de0b954d-ca76-41d3-ac3a-900c6bc25139.jpg") center;
+  background: url("https://cdn.euroinnova.edu.es/img/subidasEditor/1%20(1)-1626832718.webp") center no-repeat;
 }
 .container .section:nth-child(4) {
-  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Bryce-desktop.jpg") center;
+  background: url("https://www.elciudadanoweb.com/wp-content/uploads/2019/04/DIA-DEL-MEDICO-CLINICO-11-DE-ABRIL.jpeg") center no-repeat;
 }
 .container .section:nth-child(5) {
-  background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Tortugas-desktop.jpg") center;
+  background: url("https://comsalamanca.es/imagenes/noticia/g/4633/420732-coronavirusmedicos.jpg") center no-repeat ;
 }
 
 /* FINAL ESTILOS DEL  INICIO------------------------------------------------------------------------------------------------------------ */
@@ -241,4 +264,8 @@ body {
   footer  .redes{
       justify-content: center;
   }
+
+  footer .RD{
+    margin-left: 10px;
+}
 }

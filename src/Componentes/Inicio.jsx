@@ -13,55 +13,57 @@ export default function Inicio() {
             Posee una superficie cubierta cercana a los de 1200 m2 cubiertos, desarrollados en una planta, una recepción integrada, con sistema de gestión informático que optimiza tiempos de espera, salas de espera sectorizadas según la especialidad, y todos los requerimientos necesarios para la accesibilidad plena de pacientes, como rampas especiales y ascensor camillero. Todo permite lograr una atención de excelencia un solo lugar.
 
             </p>
+
             <section class="container">
                 <div class="section first">
                     <div class="cont_title">
                     <div class="letter-container">
                         {/* <p class="lettering">Alaska, USA</p> */}
                     </div>
-                    <h1>kenai fjords</h1>
-                    <h3>National Park</h3>
+                    <h1> Especialistas</h1>
+                    <h3>disponibles las 24 hs</h3>
                     </div>
-                    <div class="cont_desc">
-                    <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
-                    </div>
+                    {/* <div class="cont_desc">
+                    <p>Dedicados a su, saludy</p>
+                    </div> */}
                 </div>
                 <div class="section">
                     <div class="cont_title">
-                    <h1>Hawai Volcanoes</h1>
-                    <h3>National Park</h3>
+                    <h1>Profesionales de la salud</h1>
+                    <h3>que aman  lo que hacen</h3>
                     </div>
-                    <div class="cont_desc">
+                    {/* <div class="cont_desc">
                     <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
-                    </div>
+                    </div> */}
                 </div>
                 <div class="section">
                     <div class="cont_title">
-                    <h1>Carlsbad Caverns</h1>
-                    <h3>National Park</h3>
+                        <h1>Medicos </h1>
+                        <h3> los 365 dias del año</h3>
                     </div>
-                    <div class="cont_desc">
+                    {/* <div class="cont_desc">
                     <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
-                    </div>
+                    </div> */}
                 </div>
                 <div class="section">
                     <div class="cont_title">
-                    <h1>Bryce <br></br>Canyon</h1>
-                    <h3>National Park</h3>
+                    <h1>20 años <br></br>de experiencia</h1>
+                    <h3>Nos avalan</h3>
                     </div>
-                    <div class="cont_desc">
+                    {/* <div class="cont_desc">
                     <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
-                    </div>
+                    </div> */}
                 </div>
                 <div class="section">
                     <div class="cont_title">
-                    <h1>Dry  <br></br>Tortugas</h1>
-                    <h3>National Park</h3>
-                    </div>
-                    <div class="cont_desc">
-                    <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
-                    </div>
+                    <h1> Respetamos <br></br> protocolo</h1>
+                    <h3> Covid </h3>
                 </div>
+                    {/* <div class="cont_desc">
+                    <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
+                    </div> */}
+                </div>
+
             </section>
 
     </div>
