@@ -17,51 +17,33 @@ export default function Inicio() {
             <section class="container">
                 <div class="section first">
                     <div class="cont_title">
-                    <div class="letter-container">
-                        {/* <p class="lettering">Alaska, USA</p> */}
-                    </div>
                     <h1> Especialistas</h1>
                     <h3>disponibles las 24 hs</h3>
                     </div>
-                    {/* <div class="cont_desc">
-                    <p>Dedicados a su, saludy</p>
-                    </div> */}
                 </div>
                 <div class="section">
-                    <div class="cont_title">
-                    <h1>Profesionales de la salud</h1>
-                    <h3>que aman  lo que hacen</h3>
-                    </div>
-                    {/* <div class="cont_desc">
-                    <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
-                    </div> */}
+                        <div class="cont_title">
+                        <h1>Profesionales de la salud</h1>
+                        <h3>que aman  lo que hacen</h3>
+                        </div>
                 </div>
                 <div class="section">
                     <div class="cont_title">
                         <h1>Medicos </h1>
                         <h3> los 365 dias del año</h3>
-                    </div>
-                    {/* <div class="cont_desc">
-                    <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
-                    </div> */}
+                </div>
                 </div>
                 <div class="section">
                     <div class="cont_title">
                     <h1>20 años <br></br>de experiencia</h1>
                     <h3>Nos avalan</h3>
                     </div>
-                    {/* <div class="cont_desc">
-                    <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
-                    </div> */}
                 </div>
                 <div class="section">
                     <div class="cont_title">
                     <h1> Respetamos <br></br> protocolo</h1>
                     <h3> Covid </h3>
                 </div>
-                    {/* <div class="cont_desc">
-                    <p>Rappel into a crevasse, kayak through icebergs, and watch a glacier recede.</p>
-                    </div> */}
                 </div>
 
             </section>
