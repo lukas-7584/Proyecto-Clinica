@@ -13,17 +13,17 @@ export default function Footer ( ) {
                                         <div class="columna columna-25 columna-mobile-100">
                                                 <h3>Navegación</h3>
                                                 <ul>
-                                                        <li> <a href="#inicio">Inicio</a> </li>
-                                                        <li>  <a href="#nosotros">Nosotros</a> </li>
-                                                        <li>  <a href="#contacto">Contacto</a> </li>
-                                                        <li>   <a href="#login">Login</a> </li>
+                                                        <li> <a href='/'>Inicio</a> </li>
+                                                        <li>  <a href='/ nosotros'>Nosotros</a> </li>
+                                                        <li>  <a href='/ contacto'>Contacto</a> </li>
+                                                        <li>   <a href='/ login'>Login</a> </li>
                                                 </ul>
                                         </div>
                                         <div class="columna columna-25 columna-mobile-100">
 
                                             <h3>DATOS DE CONTACTO</h3>
                                                     <ul>
-                                                        <li>Email: amaya.jorgelucas@gmail.com</li>
+                                                        <li>Email: CL_M@GMAIL.COM</li>
                                                         <li>Telefono : +54 9 261 3917016 </li>
                                                         <li>MENDOZA. ARGENTINA</li>
                                                     </ul>
@@ -49,7 +49,7 @@ export default function Footer ( ) {
                                 </div>
                     </div>
                     <div class="barra-footer">
-                        COPYRIGHT © 2022 JORGE LUCAS AMAYA
+                        COPYRIGHT © 2022 GRUPO LOS CODERS
                     </div>
             </footer>
                 </div>

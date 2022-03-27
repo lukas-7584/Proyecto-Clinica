@@ -22,6 +22,24 @@ function App() {
                 <Inicio/>
               </div>
             </Route>
+            {/* RUTA A NOSOTROS */}
+            <Route exact path="/ nosotros">
+              <div>
+                    <p>EN CONSTRUCCION</p>
+              </div>
+            </Route >
+              {/* RUTA A CONTACTO*/}
+              <Route  exact path="/ contacto"> 
+              <div>
+                <p> DEJANOS  TU MENSAJE </p>
+              </div>
+            </Route>
+              {/* RUTA A LOGIN */}
+              <Route  exact path="/ login">
+              <div>
+                    <p> SOLO PARA USUARIOS</p>
+              </div>
+            </Route>
           </Switch>
         
         
