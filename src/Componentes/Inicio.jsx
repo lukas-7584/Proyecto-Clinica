@@ -18,7 +18,7 @@ export default function Inicio() {
                 <div class="section first">
                     <div class="cont_title">
                     <h1> Especialistas</h1>
-                    <h3>disponibles las 24 hs</h3>
+                    <h3>las 24 hs</h3>
                     </div>
                 </div>
                 <div class="section">
@@ -41,7 +41,7 @@ export default function Inicio() {
                 </div>
                 <div class="section">
                     <div class="cont_title">
-                    <h1> Respetamos <br></br> protocolo</h1>
+                    <h1> Con <br></br>Protocolo</h1>
                     <h3> Covid </h3>
                 </div>
                 </div>
