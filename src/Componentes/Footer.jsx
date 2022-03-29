@@ -24,7 +24,7 @@ export default function Footer ( ) {
                                             <h3>DATOS DE CONTACTO</h3>
                                                     <ul>
                                                         <li>Email: CL_M@GMAIL.COM</li>
-                                                        <li>Telefono : +54 9 261 3917016 </li>
+                                                        <li>Telefono: +54 9 261 3917016 </li>
                                                         <li>MENDOZA. ARGENTINA</li>
                                                     </ul>
                                             

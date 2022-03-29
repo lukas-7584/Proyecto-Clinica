@@ -7,6 +7,7 @@ import CartProvider from './Context/CartProvider';
 import { BrowserRouter } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
+import Contacto from './Componentes/Contacto';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
               {/* RUTA A CONTACTO*/}
               <Route  exact path="/ contacto"> 
               <div>
-                <p> DEJANOS  TU MENSAJE </p>
+                {/* <p> DEJANOS  TU MENSAJE </p> */}
+                <Contacto />
               </div>
             </Route>
               {/* RUTA A LOGIN */}
@@ -47,7 +49,6 @@ function App() {
 
 
       </CartProvider>
-      {/* <Inicio /> */}
       
       <Footer />
     </>

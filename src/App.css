@@ -67,9 +67,12 @@ footer p {
 
 footer a {
   color: white;
+  text-decoration: none;
   
 }
-
+footer a:hover{
+    color: burlywood;
+  }
 footer h3{
   font-size: 20px;
 }
@@ -96,9 +99,11 @@ footer .redes{
 }
 
 footer .redes  a{
-  margin: 0 7.5px;
+  margin: 0  7.5px;
   font-size: 25px;
 }
+
+
 
 .columna{
   padding-left: 15px;
@@ -242,6 +247,39 @@ body p{
 }
 
 /* FINAL ESTILOS DEL  INICIO------------------------------------------------------------------------------------------------------------ */
+
+
+/* ESTILOS PARA EL FORMULARIO DE CONTACTO----------------------------------------------------------------------------------- */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://blogs.iadb.org/salud/wp-content/uploads/sites/15/2020/08/SPH_Newsletters_Blogs_AUG10_GS-POST.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 20px;
+}
+
+form button{
+  color: #fff;
+  background-color:rgb(0, 135, 162);
+  border-color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+input::placeholder{
+  color:rgb(0, 135, 162);
+}
+
+textarea::placeholder{
+  color:rgb(0, 135, 162);
+}
+
+/*  FIN DE LOS ESTILOS DEL FORMULARIO DE CONTACTO------------------------------------------------------------------------------- */
 
 @media (max-width: 767px){
   
