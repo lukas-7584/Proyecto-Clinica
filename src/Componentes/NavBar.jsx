@@ -15,7 +15,7 @@ export default function NavBar ( ){
                                         <Link to={'/'} class="nav-link active" aria-current="page" >Inicio</Link>
                                         </li>
                                         <li class="nav-item">
-                                        < Link  to={ '/ nosotros'}class="nav-link" >Nosotros</Link>
+                                        < Link  to={ '/ nosotros'}class="nav-link" >Especialidades </Link>
                                         </li>
                                         <li class="nav-item">
                                         <Link to ={'/ contacto'}class="nav-link" >Contacto</Link>
